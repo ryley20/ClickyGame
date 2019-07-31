@@ -17,6 +17,7 @@ const Banner = props => (
     Click on a character to earn points, but don't click the same character twice or you lose!
     </h2>
   </article>
+  
 );
 
 export default Banner;

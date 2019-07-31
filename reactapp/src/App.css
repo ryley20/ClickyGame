@@ -10,7 +10,7 @@
 .App-header {
   background-color: #222;
   height: 150px;
-  padding: 20px;
+  padding: 15px;
   color: white;
 }
 
@@ -22,7 +22,7 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -30,12 +30,12 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
-/*  */
 .container {
-background-image: url("https://files.slack.com/files-pri/TJQUN385V-FLKNK6L82/smashbroswallpaper.jpg")
-
+background-image: url("http://www.sclance.com/backgrounds/smash-bros-background/smash-bros-background_2035334.jpg");
+background-repeat: no-repeat;
+height: 1000px;
 }
 
 @keyframes Gradient {

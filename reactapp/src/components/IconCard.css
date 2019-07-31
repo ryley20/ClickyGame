@@ -1,10 +1,9 @@
 .mainStyle {
-  max-width: 1500px;
-  margin: auto;
-  padding: 0;
+  max-width: 2000px;
+  height: 15px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row; 
   justify-content: center;
-  align-items: center;
+  align-items: center; 
   flex-wrap: wrap;
 }
