@@ -1,9 +1,0 @@
-.mainStyle {
-  max-width: 2000px;
-  height: 15px;
-  display: flex;
-  flex-direction: row; 
-  justify-content: center;
-  align-items: center; 
-  flex-wrap: wrap;
-}
