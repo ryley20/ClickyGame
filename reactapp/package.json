@@ -1,9 +1,11 @@
 {
   "name": "reactapp",
   "version": "0.1.0",
+  "homepage": "https://ryley20.github.io/ClickyGame/",
   "private": true,
   "dependencies": {
     "animate": "^1.0.0",
+    "gh-pages": "^2.0.1",
     "hover": "^3.0.0-alpha.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -12,6 +14,8 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
